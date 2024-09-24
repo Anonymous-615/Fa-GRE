@@ -24,7 +24,7 @@ Due to significant differences in dataset scales, time overheads vary widely. To
 
 To run the Overall performance of FAGRE:
 ```
-python Total.py
+python ./models/end-to-end.py
 ```
 
 
@@ -35,7 +35,7 @@ We evaluate the speedup of the redundancy removal system on different datasets w
 
 To run the performance of Prunning module in FAGRE:
 ```
-python Prunning.py
+python ./models/prunning.py
 ```
 
 
@@ -46,7 +46,7 @@ We evaluate the speedup of the redundancy removal system on different datasets w
 
 To run the performance of Index-Multiplication module in FAGRE:
 ```
-python Index_Multiplication.py
+python ./models/index_multi.py
 ```
 
 ## FAGRE module performance
@@ -55,5 +55,5 @@ We evaluate the speedup of the redundancy removal system on different datasets w
 
 To run the speedup performance of FAGRE on Redundancy Elimination:
 ```
-python FAGRE.py
+python ./models/fagre.py
 ```
